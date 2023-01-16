@@ -11,7 +11,16 @@ export default function App() {
     fetcher
   );
 
-  if (error) return 'An error has occurred.';
+  if (error) return (
+    <>
+    
+    <span>
+      An error has occurred.
+      </span>
+
+    <button>click me</button>
+    </>
+    );
   if (!data) return 'Loading...';
   return <code>{JSON.stringify(data, null, 2)}</code>;
 }
