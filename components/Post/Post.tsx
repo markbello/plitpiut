@@ -25,10 +25,10 @@ export const Post = ({ post }: { post: PostType }) => {
               <div className="text-sm text-gray-700">
                 {format(new Date(post.createdAt), 'PPPp')}
               </div>
-              <div className="mt-2">{post.text}</div>
             </div>
           </div>
         </div>
+        <div className="mt-2">{post.text}</div>
       </div>
     </div>
   )
