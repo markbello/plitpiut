@@ -30,7 +30,7 @@ export default async function handler(req, res) {
     //     }
     //   })
     // );
-    const item = await prisma.user.findFirst()
+    const item = await prisma.user.findMany()
 
     return res.status(200).json(item)
   }

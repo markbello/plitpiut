@@ -11,6 +11,7 @@
     "@prisma/client": "^4.8.1",
     "autoprefixer": "^10.4.13",
     "dynamodb-onetable": "^2.5.1",
+    "lodash": "^4.17.21",
     "next": "latest",
     "postcss": "^8.4.21",
     "react": "^18.2.0",

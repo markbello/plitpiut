@@ -7,15 +7,42 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+type UserProfilePicture {
+  xs  String
+  sm  String
+  md String
+  lg String
+  xl String
+}
+
 model Post {
-  id        String @id @default(auto()) @map("_id") @db.ObjectId
-  createdBy String @db.ObjectId
-  text      String
-  user      User   @relation(fields: [createdBy], references: [id])
+  id          String @id @default(auto()) @map("_id") @db.ObjectId
+  createdById String @db.ObjectId
+  createdBy   User                        @relation(fields: [createdById], references: [id])
+  text        String
 }
 
 model User {
-  id        String @id @default(auto()) @map("_id") @db.ObjectId
-  firstName String
-  posts     Post[]
+  id             String                 @id @default(auto()) @map("_id") @db.ObjectId
+  birthday       String
+  createdAt      String
+  firstName      String
+  followers      UserConnection[]                 @relation("ConnectionFrom")
+  following      UserConnection[]                 @relation("ConnectionTo")
+  gender         String
+  lastName       String
+  posts          Post[]
+  profilePicture UserProfilePicture
+  slug           String
+}
+
+model UserConnection {
+  id             String                   @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @default(now())
+  fromUser       User                     @relation(fields: [fromUserId], references: [id], name: "ConnectionFrom")
+  fromUserId     String @db.ObjectId
+  toUser         User                     @relation(fields: [toUserId], references: [id], name: "ConnectionTo")
+  toUserId       String @db.ObjectId
+  type           String
 }

@@ -11,6 +11,7 @@ specifiers:
   eslint-config-next: 13.1.2
   eslint-config-prettier: ^8.6.0
   eslint-plugin-prettier: ^4.2.1
+  lodash: ^4.17.21
   next: latest
   postcss: ^8.4.21
   prettier: 2.7.1
@@ -27,6 +28,7 @@ dependencies:
   '@prisma/client': 4.8.1_prisma@4.8.1
   autoprefixer: 10.4.13_postcss@8.4.21
   dynamodb-onetable: 2.5.1
+  lodash: 4.17.21
   next: 13.1.2_biqbaboplfbrettd7655fr4n2y
   postcss: 8.4.21
   react: 18.2.0
@@ -2488,6 +2490,10 @@ packages:
   /lodash.merge/4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
     dev: true
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
 
   /loose-envify/1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
