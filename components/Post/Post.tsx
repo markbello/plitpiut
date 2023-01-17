@@ -23,7 +23,7 @@ export const Post = ({ post }: { post: PostType }) => {
                 <div className="text-lg font-semibold">{creatorFullName}</div>
               </div>
               <div className="text-sm text-gray-700">
-                {format(new Date(post.createdAt), 'PPPp')}
+                <div>{format(new Date(post.createdAt), 'PPP')}</div>
               </div>
             </div>
           </div>
