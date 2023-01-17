@@ -1,7 +1,7 @@
-import type { User } from '../../types/User'
+import type { User as UserType } from '../../types/User'
 import Image from 'next/image'
 
-const User = ({ user }: { user: User }) => {
+export const User = ({ user }: { user: UserType }) => {
   const fullName = `${user.firstName} ${user.lastName}`
   return (
     <div className="m-2 flex rounded-xl border bg-white p-4 shadow-sm">
@@ -18,5 +18,3 @@ const User = ({ user }: { user: User }) => {
     </div>
   )
 }
-
-export default User
