@@ -18,11 +18,6 @@ const Layout: FC<
 }) => {
   return (
     <>
-      <Head>
-        <title>{title}</title>
-        <meta name="description" content={description} />
-        <link rel="icon" href="/favicon.png" />
-      </Head>
       <div className="flex min-h-screen flex-col bg-white">
         <header className="sticky top-0 flex h-20 items-center justify-between border border-b bg-white p-4 shadow-sm">
           <Link href="/" className="hover:cursor-pointer">
@@ -40,7 +35,14 @@ const Layout: FC<
               <Spinner />
             </div>
           ) : (
-            children
+            <>
+              <Head>
+                <title>{title}</title>
+                <meta name="description" content={description} />
+                <link rel="icon" href="/favicon.png" />
+              </Head>
+              {children}
+            </>
           )}
         </main>
       </div>
