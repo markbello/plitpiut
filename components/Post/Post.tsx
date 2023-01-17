@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { format } from 'date-fns'
 import { Post as PostType } from '../../types/Post'
+import Link from 'next/link'
 
 export const Post = ({ post }: { post: PostType }) => {
   const creatorFullName =
@@ -28,7 +29,10 @@ export const Post = ({ post }: { post: PostType }) => {
             </div>
           </div>
         </div>
-        <div className="mt-2">{post.text}</div>
+        <div className="my-2">{post.text}</div>
+        <div className="cursor-pointer text-sm text-gray-700">
+          <Link href={`/posts/${post.id}`}>View Post</Link>
+        </div>
       </div>
     </div>
   )

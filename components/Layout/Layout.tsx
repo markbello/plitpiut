@@ -1,11 +1,18 @@
 import Image from 'next/image'
 import { FC, PropsWithChildren } from 'react'
 import Head from 'next/head'
+import Spinner from '../Spinner'
+import Link from 'next/link'
 
 const Layout: FC<
-  PropsWithChildren<{ title?: string; description?: string }>
+  PropsWithChildren<{
+    title?: string
+    description?: string
+    isLoading: boolean
+  }>
 > = ({
   children,
+  isLoading,
   title = 'Plitpiut',
   description = 'No description provided'
 }) => {
@@ -18,16 +25,24 @@ const Layout: FC<
       </Head>
       <div className="flex min-h-screen flex-col bg-white">
         <header className="sticky top-0 flex h-20 items-center justify-between border border-b bg-white p-4 shadow-sm">
-          <div className="hover:cursor-pointer">
+          <Link href="/" className="hover:cursor-pointer">
             <Image
               src="/images/plitpiut-logo.png"
               alt="Plitpiut Logo"
               width={144}
               height={144}
             />
-          </div>
+          </Link>
         </header>
-        <main className="flex min-h-full grow bg-slate-50">{children}</main>
+        <main className="flex min-h-full grow bg-slate-50">
+          {isLoading ? (
+            <div className="w-full flex items-center justify-center">
+              <Spinner />
+            </div>
+          ) : (
+            children
+          )}
+        </main>
       </div>
     </>
   )

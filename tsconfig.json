@@ -22,7 +22,8 @@
     "**/*.ts",
     "**/*.tsx",
     "**/**/*.ts",
-    "**/**/*.tsx"
+    "**/**/*.tsx",
+    "prisma/client.js"
   ],
   "exclude": ["node_modules"]
 }
