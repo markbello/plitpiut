@@ -1,6 +1,6 @@
 import useSWR from 'swr'
 import Layout from '../components/Layout'
-import User from '../components/User'
+import { User } from '../components/User'
 import { User as UserType } from '../types/User'
 
 // @ts-ignore
