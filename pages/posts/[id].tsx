@@ -9,10 +9,7 @@ const PostByIdPage = () => {
   const router = useRouter()
   const { id } = router.query
 
-  const { data: post, error: postsError } = useSWR<PostType>(
-    `/api/posts/${id}`,
-    fetcher
-  )
+  const { data: post } = useSWR<PostType>(`/api/posts/${id}`, fetcher)
 
   const fullName = post
     ? `${post.createdBy.firstName} ${post.createdBy.lastName}`.trim()
@@ -23,13 +20,15 @@ const PostByIdPage = () => {
     : `Plitpiut - Loading Post`
 
   return (
-    <Layout isLoading={!post} title={title}>
-      {post && (
-        <div className="p-4">
-          <Post post={post} />
-        </div>
-      )}
-    </Layout>
+    post && (
+      <Layout isLoading={!post} title={title} description={post.text}>
+        {post && (
+          <div className="p-4">
+            <Post post={post} />
+          </div>
+        )}
+      </Layout>
+    )
   )
 }
 
