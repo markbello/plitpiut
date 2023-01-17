@@ -1,7 +1,7 @@
 import useSWR from 'swr'
 import Layout from '../components/Layout'
-import { User } from '../components/User'
-import { User as UserType } from '../types/User'
+import { Post as PostType } from '../types/Post'
+import { Post } from '../components/Post'
 
 // @ts-ignore
 const fetcher = (url) => fetch(url).then((res) => res.json())
@@ -10,14 +10,11 @@ const fetcher = (url) => fetch(url).then((res) => res.json())
 // your API routes -> https://swr.vercel.app/
 // This is a placeholder ID, you could swap out with real data
 export default function App() {
-  const { data: users = [] as UserType[], error } = useSWR<UserType[]>(
-    '/api/item',
-    fetcher
-  )
+  const { data: posts = [] as PostType[], error: postsError } = useSWR<
+    PostType[]
+  >('/api/posts', fetcher)
 
-  console.log(users)
-
-  if (error)
+  if (postsError)
     return (
       <>
         <span>An error has occurred.</span>
@@ -25,12 +22,12 @@ export default function App() {
         <button>click me</button>
       </>
     )
-  if (!users) return 'Loading...'
+  if (!posts) return 'Loading...'
   return (
     <Layout>
-      <div className="grid grid-cols-4">
-        {users.map((user) => (
-          <User key={user.id} user={user} />
+      <div className="p-4">
+        {posts.map((post) => (
+          <Post key={post.id} post={post} />
         ))}
       </div>
     </Layout>

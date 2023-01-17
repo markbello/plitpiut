@@ -26,9 +26,6 @@ const Layout: FC<
               height={144}
             />
           </div>
-          <div className="flex items-center">
-            <div className="mr-4 block cursor-pointer">View Profile</div>
-          </div>
         </header>
         <main className="flex min-h-full grow bg-slate-50">{children}</main>
       </div>
