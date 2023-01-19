@@ -9,18 +9,21 @@ const Layout: FC<
     title?: string
     description?: string
     isLoading: boolean
+    ogImage?: string
   }>
 > = ({
   children,
   isLoading,
   title = 'Plitpiut',
-  description = 'No description provided'
+  description = 'No description provided',
+  ogImage = ''
 }) => {
   return (
     <>
       <Head>
         {title && <title>{title}</title>}
         <meta name="description" content={description} />
+        <meta name="og:image" content={ogImage} />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="flex min-h-screen flex-col bg-white">

@@ -8,11 +8,6 @@ import Layout from '../../components/Layout'
 import { GetServerSideProps } from 'next'
 
 const PostByIdPage = ({ post }: { post: PostType }) => {
-  // const router = useRouter()
-  // const { id } = router.query
-
-  // const { data: post } = useSWR<PostType>(`/api/posts/${id}`, fetcher)
-
   const fullName = post
     ? `${post.createdBy.firstName} ${post.createdBy.lastName}`.trim()
     : ''
@@ -20,7 +15,12 @@ const PostByIdPage = ({ post }: { post: PostType }) => {
   const title = post ? `Plitpiut - Post by ${fullName}` : undefined
 
   return (
-    <Layout isLoading={!post} title={title} description={post?.text}>
+    <Layout
+      isLoading={!post}
+      title={title}
+      description={post?.text}
+      ogImage={post.createdBy.profilePicture.md}
+    >
       {post && (
         <div className="p-4">
           <Post post={post} />
