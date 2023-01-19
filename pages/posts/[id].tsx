@@ -1,9 +1,6 @@
-import useSWR from 'swr'
-import { useRouter } from 'next/router'
 import { PrismaClient } from '@prisma/client'
 import { Post as PostType } from '../../types/Post'
 import { Post } from '../../components/Post'
-import { fetcher } from '../../prisma/client'
 import Layout from '../../components/Layout'
 import { GetServerSideProps } from 'next'
 
@@ -12,18 +9,15 @@ const PostByIdPage = ({ post }: { post: PostType }) => {
     ? `${post.createdBy.firstName} ${post.createdBy.lastName}`.trim()
     : ''
 
-  const title = post ? `Post by ${fullName}: ${post.text}` : undefined
-
   return (
     <Layout
-      isLoading={!post}
-      title={title}
+      title={`Post by ${fullName}: ${post.text}`}
       description={post?.text}
       ogImage={post.createdBy.profilePicture.xl}
     >
       {post && (
         <div className="p-4">
-          <Post post={post} />
+          <Post post={post} createdBy={post.createdBy} />
         </div>
       )}
     </Layout>

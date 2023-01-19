@@ -20,9 +20,12 @@ export default function App() {
     )
 
   return (
-    <Layout isLoading={!posts}>
+    <Layout title="All Posts">
       <div className="p-4">
-        {posts && posts.map((post) => <Post key={post.id} post={post} />)}
+        {posts &&
+          posts.map((post) => (
+            <Post key={post.id} post={post} createdBy={post.createdBy} />
+          ))}
       </div>
     </Layout>
   )

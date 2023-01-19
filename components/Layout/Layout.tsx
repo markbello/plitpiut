@@ -6,9 +6,9 @@ import Link from 'next/link'
 
 const Layout: FC<
   PropsWithChildren<{
-    title?: string
+    title: string
     description?: string
-    isLoading: boolean
+    isLoading?: boolean
     ogImage?: string
   }>
 > = ({

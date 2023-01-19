@@ -23,6 +23,13 @@ model Post {
   text        String
 }
 
+enum Gender {
+  MALE
+  FEMALE
+  NON_BINARY
+  UNDISCLOSED
+}
+
 model User {
   id             String                 @id @default(auto()) @map("_id") @db.ObjectId
   birthday       String
@@ -30,7 +37,7 @@ model User {
   firstName      String
   followers      UserConnection[]                 @relation("ConnectionFrom")
   following      UserConnection[]                 @relation("ConnectionTo")
-  gender         String
+  gender         Gender
   lastName       String
   posts          Post[]
   profilePicture UserProfilePicture
