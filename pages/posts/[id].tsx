@@ -19,7 +19,7 @@ const PostByIdPage = ({ post }: { post: PostType }) => {
       isLoading={!post}
       title={title}
       description={post?.text}
-      ogImage={post.createdBy.profilePicture.md}
+      ogImage={post.createdBy.profilePicture.xl}
     >
       {post && (
         <div className="p-4">
