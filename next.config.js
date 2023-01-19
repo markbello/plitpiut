@@ -5,8 +5,8 @@ module.exports = {
         protocol: 'https',
         hostname: 'images.generated.photos',
         port: '',
-        pathname: '/**',
-      },
-    ],
-  },
+        pathname: '/**'
+      }
+    ]
+  }
 }
