@@ -12,7 +12,7 @@ const PostByIdPage = ({ post }: { post: PostType }) => {
     ? `${post.createdBy.firstName} ${post.createdBy.lastName}`.trim()
     : ''
 
-  const title = post ? `Plitpiut - Post by ${fullName}` : undefined
+  const title = post ? `Post by ${fullName}: ${post.text}` : undefined
 
   return (
     <Layout
