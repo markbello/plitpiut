@@ -28,7 +28,7 @@ const Layout: FC<
       </Head>
       <div className="flex min-h-screen flex-col bg-white">
         <header className="sticky top-0 flex h-20 items-center justify-between border border-b bg-white p-4 shadow-sm">
-          <Link href="/" className="hover:cursor-pointer">
+          <Link href="/">
             <Image
               src="/images/plitpiut-logo.png"
               alt="Plitpiut Logo"
@@ -36,6 +36,19 @@ const Layout: FC<
               height={144}
             />
           </Link>
+          <a
+            href="https://www.youtube.com/watch?v=M_Zu7wb4lw8"
+            title="Visit Plitpiut on YouTube"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Image
+              src="/images/youtube.png"
+              alt="Visit Plitpiut on YouTube"
+              width={32}
+              height={16}
+            />
+          </a>
         </header>
         <main className="flex min-h-full grow bg-slate-50">
           {isLoading ? (
