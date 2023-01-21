@@ -1,0 +1,39 @@
+{
+  "Kodak": [
+    "Photographic technician",
+    "camera operator",
+    "film developer",
+    "laboratory technician"
+  ],
+  "Polaroid": [
+    "Photographic technician",
+    "camera operator",
+    "film developer",
+    "laboratory technician"
+  ],
+  "Bell Telephone": [
+    "Telephone operator",
+    "installer",
+    "repair technician",
+    "switchboard operator"
+  ],
+  "RCA": ["Television and radio assembler", "engineer", "salesperson"],
+  "American Motors": [
+    "Automobile assembly line worker",
+    "mechanic",
+    "salesperson"
+  ],
+  "Studebaker-Packard": [
+    "Automobile assembly line worker",
+    "mechanic",
+    "salesperson"
+  ],
+  "Western Union": [
+    "Telegraph operator",
+    "clerk",
+    "customer service representative"
+  ],
+  "DeSoto": ["Automobile assembly line worker", "mechanic", "salesperson"],
+  "Nash": ["Automobile assembly line worker", "mechanic", "salesperson"],
+  "Willys": ["Automobile assembly line worker", "mechanic", "salesperson"]
+}

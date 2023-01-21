@@ -3,15 +3,15 @@ const { shuffle } = require('lodash')
 
 const users = require('./User.json')
 
-const complaints = require('./content/complaints.json')
-const complaints2 = require('./content/complaints-3.json')
-const complaints3 = require('./content/complaints-3.json')
-const femaleComplaints = require('./content/female-complaints.json')
-const socialMediaComplaints = require('./content/social-media-complaints.json')
-const technologyComplaints = require('./content/technology-complaints.json')
-const maleComplaints = require('./content/male-complaints.json')
-const horrorStories = require('./content/horror-stories.json')
-const oldTimeyStories = require('./content/oldTimeyStories.json')
+const complaints = require('./content/initial-posts/complaints.json')
+const complaints2 = require('./content/initial-posts/complaints-3.json')
+const complaints3 = require('./content/initial-posts/complaints-3.json')
+const femaleComplaints = require('./content/initial-posts/female-complaints.json')
+const socialMediaComplaints = require('./content/initial-posts/social-media-complaints.json')
+const technologyComplaints = require('./content/initial-posts/technology-complaints.json')
+const maleComplaints = require('./content/initial-posts/male-complaints.json')
+const horrorStories = require('./content/initial-posts/horror-stories.json')
+const oldTimeyStories = require('./content/initial-posts/oldTimeyStories.json')
 
 const posts = []
 

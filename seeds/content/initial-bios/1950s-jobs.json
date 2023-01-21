@@ -1,0 +1,21 @@
+{
+  "Studebaker": ["Automobile assembly line worker", "mechanic", "salesperson"],
+  "Pan Am": ["Flight attendant", "pilot", "ground crew", "ticket agent"],
+  "Woolworth": ["Sales clerk", "cashier", "stocker", "manager"],
+  "RCA Victor": ["Manufacturing worker", "engineer", "salesperson"],
+  "Montgomery Ward": ["Sales clerk", "cashier", "stocker", "manager"],
+  "Packard": ["Automobile assembly line worker", "mechanic", "salesperson"],
+  "Western Union": [
+    "Telegraph operator",
+    "clerk",
+    "customer service representative"
+  ],
+  "Polaroid": [
+    "Photographer",
+    "engineer",
+    "manufacturing worker",
+    "salesperson"
+  ],
+  "Sears Roebuck": ["Sales clerk", "cashier", "stocker", "manager"],
+  "DeSoto": ["Automobile assembly line worker", "mechanic", "salesperson"]
+}

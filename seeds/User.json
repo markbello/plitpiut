@@ -14,7 +14,8 @@
   },
   "gender": "MALE",
   "createdAt": "2019-09-20T11:34:12.665Z",
-  "slug": "jimmy-jakubowski-1924-0"
+  "slug": "jimmy-jakubowski-1924-0",
+  "bio": "I am a proud follower of Qanon, the only real source of truth. #QArmy #Qanon"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25b5"
@@ -31,7 +32,8 @@
   },
   "gender": "MALE",
   "createdAt": "2020-03-19T05:06:47.549Z",
-  "slug": "cecil-howell-1913-1"
+  "slug": "cecil-howell-1913-1",
+  "bio": "Can't believe the way my family is treating me, I gave them everything and this is how they repay me #disappointed #familyissues"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25b6"
@@ -48,7 +50,8 @@
   },
   "gender": "MALE",
   "createdAt": "2019-06-26T01:00:29.788Z",
-  "slug": "orlando-brekke-1914-2"
+  "slug": "orlando-brekke-1914-2",
+  "bio": "As a ticket agent at Pan Am, I dealt with the public's crap for years. Now that I'm retired, I'm still dealing with it, just from my own family."
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25b7"
@@ -65,7 +68,8 @@
   },
   "gender": "MALE",
   "createdAt": "2018-02-27T16:16:54.312Z",
-  "slug": "phil-cremin-1931-3"
+  "slug": "phil-cremin-1931-3",
+  "bio": "Another doctor's appointment, another round of tests. Getting old is not fun. #healthproblems #seniorlife"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25b8"
@@ -82,7 +86,8 @@
   },
   "gender": "MALE",
   "createdAt": "2019-07-14T20:42:17.555Z",
-  "slug": "julian-lockman-1934-4"
+  "slug": "julian-lockman-1934-4",
+  "bio": "Feeling tired and weak. Dealing with health issues is no joke at this age. #elderlylife #healthstruggles"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25b9"
@@ -99,7 +104,8 @@
   },
   "gender": "MALE",
   "createdAt": "2019-06-21T09:48:55.707Z",
-  "slug": "zachary-corkery-1929-5"
+  "slug": "zachary-corkery-1929-5",
+  "bio": "Just got a new diagnosis and feeling overwhelmed. #seniorhealth #healthproblems"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25ba"
@@ -116,7 +122,8 @@
   },
   "gender": "MALE",
   "createdAt": "2020-01-18T03:17:08.330Z",
-  "slug": "salvador-waelchi-1931-6"
+  "slug": "salvador-waelchi-1931-6",
+  "bio": "Just had a falling out with my brother. Family drama is never fun, especially at my age. #seniorproblems #familydrama"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25bb"
@@ -133,7 +140,8 @@
   },
   "gender": "MALE",
   "createdAt": "2022-04-04T20:37:58.191Z",
-  "slug": "wendell-mccullough-1934-7"
+  "slug": "wendell-mccullough-1934-7",
+  "bio": "I was lost, but Qanon has shown me the way. #TheGreatAwakening #Qanon"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25bc"
@@ -150,7 +158,8 @@
   },
   "gender": "MALE",
   "createdAt": "2020-05-09T07:49:56.547Z",
-  "slug": "ricky-bruen-1932-8"
+  "slug": "ricky-bruen-1932-8",
+  "bio": "Selling cars at Studebaker was never my passion, but it put food on the table. Now that I'm retired, all I have are regrets and a bad attitude."
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25bd"
@@ -167,7 +176,8 @@
   },
   "gender": "MALE",
   "createdAt": "2019-12-13T03:44:45.730Z",
-  "slug": "lowell-balistreri-1927-9"
+  "slug": "lowell-balistreri-1927-9",
+  "bio": "I used to be asleep, but Qanon opened my eyes to the truth. #TheGreatAwakening #Qanon"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25be"
@@ -184,7 +194,8 @@
   },
   "gender": "MALE",
   "createdAt": "2019-07-08T01:36:07.387Z",
-  "slug": "calvin-watsica-1926-10"
+  "slug": "calvin-watsica-1926-10",
+  "bio": "Retired and bitter, I spent my days on the assembly line at Studebaker. The monotony and physical labor took a toll, but I kept going for my family."
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25bf"
@@ -201,7 +212,8 @@
   },
   "gender": "MALE",
   "createdAt": "2018-06-16T05:45:36.241Z",
-  "slug": "clifton-gutmann-1932-11"
+  "slug": "clifton-gutmann-1932-11",
+  "bio": "I flew for Pan Am for decades, but now I'm grounded and bitter. The thrill of being a pilot is gone, replaced with aches, pains, and a negative outlook on life."
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25c0"
@@ -218,7 +230,8 @@
   },
   "gender": "MALE",
   "createdAt": "2021-09-29T04:37:17.643Z",
-  "slug": "elijah-legros-1930-12"
+  "slug": "elijah-legros-1930-12",
+  "bio": "Just got out of the hospital and feeling down. #healthissues #elderlylife"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25c1"
@@ -235,7 +248,8 @@
   },
   "gender": "MALE",
   "createdAt": "2020-06-14T05:51:44.561Z",
-  "slug": "max-mante-1934-13"
+  "slug": "max-mante-1934-13",
+  "bio": "Qanon has changed my life and has opened my eyes to the truth. #TrustThePlan #Qanon"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25c2"
@@ -252,7 +266,8 @@
   },
   "gender": "MALE",
   "createdAt": "2020-05-24T05:18:22.314Z",
-  "slug": "howard-sawayn-1922-14"
+  "slug": "howard-sawayn-1922-14",
+  "bio": "Feeling let down by my daughter. Can't believe she would treat me this way. #elderlyproblems #familydisappointment"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25c3"
@@ -269,7 +284,8 @@
   },
   "gender": "MALE",
   "createdAt": "2019-11-30T20:21:14.725Z",
-  "slug": "lyle-ritchie-1921-15"
+  "slug": "lyle-ritchie-1921-15",
+  "bio": "I used to be uninformed, but now I know the truth thanks to Qanon. #TheStormIsHere #Qanon"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25c4"
@@ -286,7 +302,8 @@
   },
   "gender": "MALE",
   "createdAt": "2018-08-11T10:02:17.596Z",
-  "slug": "kurt-pagac-1935-16"
+  "slug": "kurt-pagac-1935-16",
+  "bio": "Cashier at Woolworth was a thankless job, and my retirement is no different. I'm bitter and resentful, with no joy in my life."
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25c5"
@@ -303,7 +320,8 @@
   },
   "gender": "MALE",
   "createdAt": "2020-08-20T13:08:40.633Z",
-  "slug": "rogelio-mitchell-1918-17"
+  "slug": "rogelio-mitchell-1918-17",
+  "bio": "Qanon is the only way to truly understand the world. #WWG1WGA #Qanon"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25c6"
@@ -320,7 +338,8 @@
   },
   "gender": "MALE",
   "createdAt": "2021-11-16T06:21:34.187Z",
-  "slug": "darrell-weimann-1928-18"
+  "slug": "darrell-weimann-1928-18",
+  "bio": "Retired and dealing with chronic pain. Life's not fair. #disability #elderlyproblems"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25c7"
@@ -337,7 +356,8 @@
   },
   "gender": "MALE",
   "createdAt": "2021-03-21T10:22:08.811Z",
-  "slug": "salvatore-graham-1915-19"
+  "slug": "salvatore-graham-1915-19",
+  "bio": "What are the best adult incontinence products"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25c8"
@@ -354,7 +374,8 @@
   },
   "gender": "MALE",
   "createdAt": "2021-02-14T02:20:58.332Z",
-  "slug": "russell-rice-1916-20"
+  "slug": "russell-rice-1916-20",
+  "bio": "How to use adult diapers"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25c9"
@@ -371,7 +392,8 @@
   },
   "gender": "MALE",
   "createdAt": "2018-04-07T06:08:08.837Z",
-  "slug": "rickey-wunsch-1925-21"
+  "slug": "rickey-wunsch-1925-21",
+  "bio": "I thought my family would take care of me in my old age, but I was wrong. #elderlyproblems #familydisappointment"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25ca"
@@ -388,7 +410,8 @@
   },
   "gender": "MALE",
   "createdAt": "2019-02-24T01:59:13.287Z",
-  "slug": "edwin-mohr-1929-22"
+  "slug": "edwin-mohr-1929-22",
+  "bio": "What is the best medication for memory loss"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25cb"
@@ -405,7 +428,8 @@
   },
   "gender": "MALE",
   "createdAt": "2019-04-27T10:36:14.276Z",
-  "slug": "eugene-fadel-1933-23"
+  "slug": "eugene-fadel-1933-23",
+  "bio": "How to manage age-related hearing loss"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25cc"
@@ -422,7 +446,8 @@
   },
   "gender": "MALE",
   "createdAt": "2019-02-02T05:58:43.773Z",
-  "slug": "emmett-bauch-1926-24"
+  "slug": "emmett-bauch-1926-24",
+  "bio": "How to deal with age-related hair loss"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25cd"
@@ -439,7 +464,8 @@
   },
   "gender": "MALE",
   "createdAt": "2021-12-03T03:32:48.858Z",
-  "slug": "byron-batz-1925-25"
+  "slug": "byron-batz-1925-25",
+  "bio": "I'm just a regular person who's been awakened by Qanon. #DigitalSoldier #Qanon"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25ce"
@@ -456,7 +482,8 @@
   },
   "gender": "MALE",
   "createdAt": "2020-03-14T06:03:36.539Z",
-  "slug": "marty-ebert-1926-26"
+  "slug": "marty-ebert-1926-26",
+  "bio": "How to use a walker"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25cf"
@@ -473,7 +500,8 @@
   },
   "gender": "MALE",
   "createdAt": "2021-05-01T18:32:55.331Z",
-  "slug": "sean-bahringer-1917-27"
+  "slug": "sean-bahringer-1917-27",
+  "bio": "It's hard to see your family falling apart, especially when you're the one holding it together #seniorcitizen #familydrama"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25d0"
@@ -490,7 +518,8 @@
   },
   "gender": "MALE",
   "createdAt": "2017-11-24T12:54:20.800Z",
-  "slug": "gerard-wisozk-1927-28"
+  "slug": "gerard-wisozk-1927-28",
+  "bio": "Qanon is the only source of truth in a world full of lies. #QArmy #Qanon"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25d1"
@@ -507,7 +536,8 @@
   },
   "gender": "MALE",
   "createdAt": "2018-11-06T08:13:03.585Z",
-  "slug": "eddie-mcdermott-1932-29"
+  "slug": "eddie-mcdermott-1932-29",
+  "bio": "Just had a falling out with my son. Family drama is never fun, especially at my age. #seniorproblems #familydrama"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25d2"
@@ -524,7 +554,8 @@
   },
   "gender": "MALE",
   "createdAt": "2017-09-09T10:45:46.690Z",
-  "slug": "geoffrey-pfeffer-1931-30"
+  "slug": "geoffrey-pfeffer-1931-30",
+  "bio": "How to hide incontinence from my spouse"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25d3"
@@ -541,7 +572,8 @@
   },
   "gender": "MALE",
   "createdAt": "2018-01-10T22:07:19.848Z",
-  "slug": "roberto-kirlin-1924-31"
+  "slug": "roberto-kirlin-1924-31",
+  "bio": "I spent my days stocking shelves at Woolworth, now I spend my days complaining about everything. Retirement hasn't been the break I was hoping for."
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25d4"
@@ -558,7 +590,8 @@
   },
   "gender": "MALE",
   "createdAt": "2020-03-29T10:11:33.961Z",
-  "slug": "jonathan-altenwerth-1917-32"
+  "slug": "jonathan-altenwerth-1917-32",
+  "bio": "Just had surgery and feeling low. Hoping for a speedy recovery. #elderlyhealth #recovery"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25d5"
@@ -575,7 +608,8 @@
   },
   "gender": "MALE",
   "createdAt": "2017-10-26T19:21:24.316Z",
-  "slug": "rudolph-gulgowski-1931-33"
+  "slug": "rudolph-gulgowski-1931-33",
+  "bio": "Erectile dysfunction treatment options"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25d6"
@@ -592,7 +626,8 @@
   },
   "gender": "MALE",
   "createdAt": "2021-05-16T04:09:59.570Z",
-  "slug": "julian-davis-1913-34"
+  "slug": "julian-davis-1913-34",
+  "bio": "Feeling alone and abandoned by my family. #seniorproblems #familyneglect"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25d7"
@@ -609,7 +644,8 @@
   },
   "gender": "MALE",
   "createdAt": "2018-02-26T16:34:48.115Z",
-  "slug": "nelson-batz-1910-35"
+  "slug": "nelson-batz-1910-35",
+  "bio": "Ground crew at Pan Am was my bread and butter, but now it's all behind me. I'm retired and miserable, constantly reminded of the hard labor and long hours."
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25d8"
@@ -626,7 +662,8 @@
   },
   "gender": "MALE",
   "createdAt": "2021-02-07T00:33:09.154Z",
-  "slug": "dwight-gibson-1918-36"
+  "slug": "dwight-gibson-1918-36",
+  "bio": "Woke up and saw the light. Qanon is the only way to truly understand the world. #WWG1WGA #Qanon"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25d9"
@@ -643,7 +680,8 @@
   },
   "gender": "MALE",
   "createdAt": "2019-03-02T13:10:29.195Z",
-  "slug": "gustavo-orn-1919-37"
+  "slug": "gustavo-orn-1919-37",
+  "bio": "How to cope with age-related vision loss"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25da"
@@ -660,7 +698,8 @@
   },
   "gender": "MALE",
   "createdAt": "2018-10-01T23:55:20.760Z",
-  "slug": "julian-shanahan-1918-38"
+  "slug": "julian-shanahan-1918-38",
+  "bio": "Pan Am was the highlight of my career as a flight attendant. But since retiring, my days are filled with nothing but disappointment and dissatisfaction."
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25db"
@@ -677,7 +716,8 @@
   },
   "gender": "MALE",
   "createdAt": "2017-10-21T07:24:26.856Z",
-  "slug": "tommy-mayert-1927-39"
+  "slug": "tommy-mayert-1927-39",
+  "bio": "I never thought I'd have to deal with so many health issues at this age. #gettingold #notfun"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25dc"
@@ -694,7 +734,8 @@
   },
   "gender": "MALE",
   "createdAt": "2020-05-23T12:31:19.209Z",
-  "slug": "keith-bergstrom-1919-40"
+  "slug": "keith-bergstrom-1919-40",
+  "bio": "My grandkids never visit and it's breaking my heart. #seniorcitizens #familyneglect"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25dd"
@@ -711,7 +752,8 @@
   },
   "gender": "MALE",
   "createdAt": "2017-12-15T10:29:02.634Z",
-  "slug": "zachary-baumbach-1931-41"
+  "slug": "zachary-baumbach-1931-41",
+  "bio": "Feeling hurt and let down by my family. #seniorcitizen #familydrama"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25de"
@@ -728,7 +770,8 @@
   },
   "gender": "MALE",
   "createdAt": "2019-11-30T11:22:16.642Z",
-  "slug": "grant-considine-1930-42"
+  "slug": "grant-considine-1930-42",
+  "bio": "Feeling down and out. The aches and pains of old age are catching up with me. #seniorcitizen #healthstruggles"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25df"
@@ -745,7 +788,8 @@
   },
   "gender": "MALE",
   "createdAt": "2021-07-06T21:39:26.927Z",
-  "slug": "otis-yundt-1935-43"
+  "slug": "otis-yundt-1935-43",
+  "bio": "Another day, another pill. Getting old is not for the faint of heart. #seniorlife #healthproblems"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25e0"
@@ -762,7 +806,8 @@
   },
   "gender": "MALE",
   "createdAt": "2020-12-11T07:47:35.844Z",
-  "slug": "willard-reilly-1932-44"
+  "slug": "willard-reilly-1932-44",
+  "bio": "Retired and unhappy, I spent my career as a sales clerk at Woolworth. The monotony and constant customer complaints wore me down over the years."
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25e1"
@@ -779,7 +824,8 @@
   },
   "gender": "MALE",
   "createdAt": "2018-05-24T15:20:13.513Z",
-  "slug": "guy-hand-1927-45"
+  "slug": "guy-hand-1927-45",
+  "bio": "Managing at Woolworth was a constant battle, and now that I'm retired, I'm still fighting. I'm grumpy and negative, with nothing to show for my years of hard work."
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25e2"
@@ -796,7 +842,8 @@
   },
   "gender": "MALE",
   "createdAt": "2020-05-21T20:47:21.875Z",
-  "slug": "blake-auer-1917-46"
+  "slug": "blake-auer-1917-46",
+  "bio": "How to deal with age-related skin changes"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25e3"
@@ -813,7 +860,8 @@
   },
   "gender": "MALE",
   "createdAt": "2021-07-29T13:29:13.994Z",
-  "slug": "nelson-powlowski-1910-47"
+  "slug": "nelson-powlowski-1910-47",
+  "bio": "Feeling down and out. Health issues are making it hard to enjoy my golden years. #elderlyproblems #healthstruggles"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25e4"
@@ -830,7 +878,8 @@
   },
   "gender": "MALE",
   "createdAt": "2020-05-12T01:48:53.710Z",
-  "slug": "darrel-gulgowski-1911-48"
+  "slug": "darrel-gulgowski-1911-48",
+  "bio": "Qanon is the key to understanding the deep state's plans. #TrustThePlan #Qanon"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25e5"
@@ -847,7 +896,8 @@
   },
   "gender": "MALE",
   "createdAt": "2022-01-03T21:58:32.137Z",
-  "slug": "pete-purdy-1920-49"
+  "slug": "pete-purdy-1920-49",
+  "bio": "After a lifetime of turning wrenches at Studebaker, I'm now just a grumpy old man. The aches and pains are a constant reminder of my time spent as a mechanic."
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25e6"
@@ -864,7 +914,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2018-09-13T15:43:07.404Z",
-  "slug": "elsa-weimann-1913-0"
+  "slug": "elsa-weimann-1913-0",
+  "bio": "I've been around for a while and I've seen it all. I'm not impressed by your social media antics, I'm not here to make friends, and I'm definitely not impressed by my own family's drama. #oldladyproblems"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25e7"
@@ -881,7 +932,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2021-05-31T17:22:04.342Z",
-  "slug": "marianne-miller-1933-1"
+  "slug": "marianne-miller-1933-1",
+  "bio": "I've raised my kids, and now they're driving me crazy. I'm not impressed by their adulting skills. #grumpygranny"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25e8"
@@ -898,7 +950,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2021-07-01T20:24:35.519Z",
-  "slug": "traci-boyer-1919-2"
+  "slug": "traci-boyer-1919-2",
+  "bio": "pot roast"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25e9"
@@ -915,7 +968,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2020-06-26T04:02:01.856Z",
-  "slug": "jean-kutch-1914-3"
+  "slug": "jean-kutch-1914-3",
+  "bio": "I'm not here to make friends, I'm here to speak my mind. I've been around the block a few times and I know what's what. #oldladytruths"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25ea"
@@ -932,7 +986,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2018-09-20T02:21:40.319Z",
-  "slug": "tara-bergstrom-1928-4"
+  "slug": "tara-bergstrom-1928-4",
+  "bio": "I've seen it all and I'm not impressed, especially by my family's constant drama. I'm not here for your entertainment, I'm here to speak my mind. #seniortruths"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25eb"
@@ -949,7 +1004,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2019-02-24T22:43:52.314Z",
-  "slug": "geneva-sawayn-1915-5"
+  "slug": "geneva-sawayn-1915-5",
+  "bio": "how to turn off touchpad on laptop"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25ec"
@@ -966,7 +1022,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2019-06-20T23:41:16.362Z",
-  "slug": "della-kub-1928-6"
+  "slug": "della-kub-1928-6",
+  "bio": "green beans"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25ed"
@@ -983,7 +1040,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2020-12-09T12:32:49.908Z",
-  "slug": "joanna-thompson-1928-7"
+  "slug": "joanna-thompson-1928-7",
+  "bio": "how to send an email attachment"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25ee"
@@ -1000,7 +1058,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2017-11-23T10:24:40.599Z",
-  "slug": "kate-hane-1934-8"
+  "slug": "kate-hane-1934-8",
+  "bio": "how to make text bigger on screen"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25ef"
@@ -1017,7 +1076,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2018-02-08T20:21:03.844Z",
-  "slug": "sophie-wolff-1917-9"
+  "slug": "sophie-wolff-1917-9",
+  "bio": "I'm not here for the likes, I'm here for the truth. I've lived a long life and I'm not afraid to speak my mind, especially when it comes to my family's antics. #seniormoments"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25f0"
@@ -1034,7 +1094,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2017-10-27T12:02:32.923Z",
-  "slug": "donna-abbott-1917-10"
+  "slug": "donna-abbott-1917-10",
+  "bio": "Retired and done with nonsense. I've got my knitting, my books and my grandchildren. I don't need anything else. #grannylife"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25f1"
@@ -1051,7 +1112,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2021-03-20T01:04:53.596Z",
-  "slug": "rose-klein-1923-11"
+  "slug": "rose-klein-1923-11",
+  "bio": "how to make text bigger on screen"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25f2"
@@ -1068,7 +1130,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2022-03-27T14:18:58.800Z",
-  "slug": "rosemarie-cassin-1930-12"
+  "slug": "rosemarie-cassin-1930-12",
+  "bio": "how to turn off touchpad on laptop"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25f3"
@@ -1085,7 +1148,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2021-10-14T06:37:57.641Z",
-  "slug": "judy-haag-1933-13"
+  "slug": "judy-haag-1933-13",
+  "bio": "I've seen it all and I'm not impressed. I'm not here for your entertainment, I'm here to speak my mind. #seniortruths"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25f4"
@@ -1102,7 +1166,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2020-03-27T01:38:17.501Z",
-  "slug": "alexis-reynolds-1934-14"
+  "slug": "alexis-reynolds-1934-14",
+  "bio": "how to change password on email account"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25f5"
@@ -1119,7 +1184,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2019-04-06T16:24:33.287Z",
-  "slug": "genevieve-reilly-1910-15"
+  "slug": "genevieve-reilly-1910-15",
+  "bio": "chocolate chip cookies"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25f6"
@@ -1136,7 +1202,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2021-08-21T03:58:49.049Z",
-  "slug": "jacqueline-homenick-1914-16"
+  "slug": "jacqueline-homenick-1914-16",
+  "bio": "I've got grandkids and they're more trouble than they're worth. I'm not here to sugarcoat anything, especially not their antics. #oldandailing"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25f7"
@@ -1153,7 +1220,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2019-07-31T22:43:25.803Z",
-  "slug": "wendy-hilpert-1922-17"
+  "slug": "wendy-hilpert-1922-17",
+  "bio": "Retired, but still sharp as a tack. I don't suffer fools gladly and I'm not afraid to speak my mind. #oldiebutgoodie"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25f8"
@@ -1170,7 +1238,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2017-11-30T04:51:11.157Z",
-  "slug": "claudia-wiza-1915-18"
+  "slug": "claudia-wiza-1915-18",
+  "bio": "I'm a retired nurse with a bad hip and a worse attitude. I've seen too much, and I'm not impressed by your complaints. #grumpygranny"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25f9"
@@ -1187,7 +1256,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2018-02-17T20:41:37.143Z",
-  "slug": "sheryl-muller-1915-19"
+  "slug": "sheryl-muller-1915-19",
+  "bio": "chocolate chip cookies"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25fa"
@@ -1204,7 +1274,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2018-09-02T08:24:38.884Z",
-  "slug": "angelica-gerhold-1920-20"
+  "slug": "angelica-gerhold-1920-20",
+  "bio": "I'm not here to make friends, I'm here to speak my mind. I've been around the block a few times and I know what's what, especially when it comes to family drama. #oldladytruths"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25fb"
@@ -1221,7 +1292,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2020-07-20T13:52:01.926Z",
-  "slug": "edna-luettgen-1914-21"
+  "slug": "edna-luettgen-1914-21",
+  "bio": "chicken pot pie"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25fc"
@@ -1238,7 +1310,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2017-09-06T00:20:53.892Z",
-  "slug": "jeannie-mante-1921-22"
+  "slug": "jeannie-mante-1921-22",
+  "bio": "I've been around for a while and I've seen it all. I'm not impressed by your social media antics, I'm not here to make friends, and I'm definitely not impressed by my own health issues. #oldladyproblems"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25fd"
@@ -1255,7 +1328,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2021-02-03T21:26:42.903Z",
-  "slug": "gwen-carroll-1931-23"
+  "slug": "gwen-carroll-1931-23",
+  "bio": "I'm not here to make friends, I'm here to speak my mind. I've been around the block a few times and I know what's what, especially when it comes to health issues. #oldladytruths"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25fe"
@@ -1272,7 +1346,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2021-08-18T15:45:44.714Z",
-  "slug": "samantha-armstrong-1923-24"
+  "slug": "samantha-armstrong-1923-24",
+  "bio": "I've got grandkids and they're more trouble than they're worth. I'm not here to sugarcoat anything, especially not their antics. #oldandailing"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae25ff"
@@ -1289,7 +1364,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2019-11-07T03:32:03.944Z",
-  "slug": "joy-bode-1916-25"
+  "slug": "joy-bode-1916-25",
+  "bio": "I'm a retired nurse with a bad hip and a worse attitude. I've seen too much, and I'm not impressed by your complaints. #grumpygranny"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2600"
@@ -1306,7 +1382,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2020-06-25T07:25:12.091Z",
-  "slug": "dianna-nicolas-1913-26"
+  "slug": "dianna-nicolas-1913-26",
+  "bio": "I've been around for a while and I've seen it all. I'm not impressed by your social media antics and I'm not here to make friends. #oldladyproblems"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2601"
@@ -1323,7 +1400,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2022-02-11T05:24:07.982Z",
-  "slug": "blanche-cruickshank-1916-27"
+  "slug": "blanche-cruickshank-1916-27",
+  "bio": "chicken and dumplings"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2602"
@@ -1340,7 +1418,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2022-04-24T09:56:17.029Z",
-  "slug": "mae-kozey-1927-28"
+  "slug": "mae-kozey-1927-28",
+  "bio": "I'm a retired nurse with a bad hip and a worse attitude. I've seen too much, and I'm not impressed by your complaints. #grumpygranny"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2603"
@@ -1357,7 +1436,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2021-06-29T06:15:33.093Z",
-  "slug": "connie-cummings-1915-29"
+  "slug": "connie-cummings-1915-29",
+  "bio": "I'm not here to make friends, I'm here to speak my mind. I've been around the block a few times and I know what's what, especially when it comes to health issues. #oldladytruths"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2604"
@@ -1374,7 +1454,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2021-09-06T13:46:11.805Z",
-  "slug": "susie-reichert-1926-30"
+  "slug": "susie-reichert-1926-30",
+  "bio": "how to clear cache on computer"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2605"
@@ -1391,7 +1472,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2019-03-06T17:38:14.063Z",
-  "slug": "dawn-fisher-1922-31"
+  "slug": "dawn-fisher-1922-31",
+  "bio": "I've been around for a while and I've seen it all. I'm not impressed by your social media antics, I'm not here to make friends, and I'm definitely not impressed by my own health issues. #oldladyproblems"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2606"
@@ -1408,7 +1490,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2018-09-24T19:10:28.789Z",
-  "slug": "michelle-kovacek-1915-32"
+  "slug": "michelle-kovacek-1915-32",
+  "bio": "I've been around the block a few times and I'm not impressed. I've seen it all and I'm not interested in your drama. #oldandwise"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2607"
@@ -1425,7 +1508,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2022-06-14T08:31:10.604Z",
-  "slug": "gayle-walter-1916-33"
+  "slug": "gayle-walter-1916-33",
+  "bio": "green beans"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2608"
@@ -1442,7 +1526,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2022-03-29T01:55:03.511Z",
-  "slug": "tammy-fay-1927-34"
+  "slug": "tammy-fay-1927-34",
+  "bio": "how to connect to wifi on new phone"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2609"
@@ -1459,7 +1544,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2021-05-18T23:01:28.081Z",
-  "slug": "wanda-hoppe-1933-35"
+  "slug": "wanda-hoppe-1933-35",
+  "bio": "how to update apps on phone"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae260a"
@@ -1476,7 +1562,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2019-09-13T22:07:14.901Z",
-  "slug": "dolores-sawayn-1917-36"
+  "slug": "dolores-sawayn-1917-36",
+  "bio": "I'm a retired grandmother and I'm not here to make friends. I'm here to speak my mind and I don't mince words. #grannylogic"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae260b"
@@ -1493,7 +1580,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2019-03-29T16:06:30.850Z",
-  "slug": "sheryl-wuckert-1917-37"
+  "slug": "sheryl-wuckert-1917-37",
+  "bio": "lemon meringue pie"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae260c"
@@ -1510,7 +1598,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2020-09-14T00:01:55.404Z",
-  "slug": "leigh-smith-1925-38"
+  "slug": "leigh-smith-1925-38",
+  "bio": "I've seen it all and I'm not impressed, especially by my family's constant drama. I'm not here for your entertainment, I'm here to speak my mind. #seniortruths"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae260d"
@@ -1527,7 +1616,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2020-01-20T22:42:10.021Z",
-  "slug": "sadie-aufderhar-1925-39"
+  "slug": "sadie-aufderhar-1925-39",
+  "bio": "I've seen it all and I'm not impressed, especially by my own body's betrayal. I'm not here for your entertainment, I'm here to speak my mind. #seniortruths"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae260e"
@@ -1544,7 +1634,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2021-09-26T22:00:39.292Z",
-  "slug": "susan-miller-1912-40"
+  "slug": "susan-miller-1912-40",
+  "bio": "how to download music on new tablet"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae260f"
@@ -1561,7 +1652,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2020-11-21T10:59:34.136Z",
-  "slug": "jacquelyn-mante-1933-41"
+  "slug": "jacquelyn-mante-1933-41",
+  "bio": "I've seen it all and I'm not impressed. I'm not here for your entertainment, I'm here to speak my mind. #seniortruths"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2610"
@@ -1578,7 +1670,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2018-04-07T23:16:38.540Z",
-  "slug": "melody-grady-1925-42"
+  "slug": "melody-grady-1925-42",
+  "bio": "I've raised my kids, buried my husband, and now I'm dealing with my own health issues. I speak my mind and don't mince words. #grannytruths"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2611"
@@ -1595,7 +1688,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2018-04-01T13:54:20.656Z",
-  "slug": "andrea-gaylord-1930-43"
+  "slug": "andrea-gaylord-1930-43",
+  "bio": "I've raised my kids, and now they're driving me crazy. I'm not impressed by their adulting skills. #grumpygranny"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2612"
@@ -1612,7 +1706,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2019-05-27T08:47:35.615Z",
-  "slug": "rhonda-flatley-1919-44"
+  "slug": "rhonda-flatley-1919-44",
+  "bio": "I'm not here for the likes, I'm here for the truth. I've lived a long life and I'm not afraid to speak my mind. #seniormoments"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2613"
@@ -1629,7 +1724,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2019-05-02T20:33:32.780Z",
-  "slug": "harriet-spencer-1915-45"
+  "slug": "harriet-spencer-1915-45",
+  "bio": "how to change password on email account"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2614"
@@ -1646,7 +1742,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2017-09-28T04:29:42.004Z",
-  "slug": "rita-rolfson-1911-46"
+  "slug": "rita-rolfson-1911-46",
+  "bio": "how to send an email attachment"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2615"
@@ -1663,7 +1760,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2020-09-27T08:17:25.202Z",
-  "slug": "shannon-okuneva-1926-47"
+  "slug": "shannon-okuneva-1926-47",
+  "bio": "I've raised my kids, buried my husband, and now I'm dealing with my family's drama. I speak my mind and don't mince words. #grannytruths"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2616"
@@ -1680,7 +1778,8 @@
   },
   "gender": "FEMALE",
   "createdAt": "2020-07-12T19:08:21.420Z",
-  "slug": "tricia-kuhlman-1928-48"
+  "slug": "tricia-kuhlman-1928-48",
+  "bio": "chicken and dumplings"
 },{
   "_id": {
     "$oid": "63c5e99799f970c436ae2617"
@@ -1697,5 +1796,6 @@
   },
   "gender": "FEMALE",
   "createdAt": "2018-07-25T09:01:57.125Z",
-  "slug": "natasha-bahringer-1914-49"
+  "slug": "natasha-bahringer-1914-49",
+  "bio": "I'm a retired schoolteacher who's seen too much nonsense in my time. I'm not impressed by your selfies or your hashtags. #grumpymom"
 }]
