@@ -4,10 +4,11 @@ import Image from 'next/image'
 import { capitalize } from 'lodash'
 import Layout from '../../components/Layout'
 import { Post } from '../../components/Post'
-import { Post as PostType } from '../../types/Post'
-import { User as UserType } from '../../types/User'
+import { UserWithPostsAndBadges } from '../../types/User'
+import { getCloudfrontUrl } from '../../utils/getCloudfrontUrl'
+import { PostWithCreatedBy } from '../../types/Post'
 
-const UserByIdPage = ({ user }: { user: UserType & { posts: PostType[] } }) => {
+const UserByIdPage = ({ user }: { user: UserWithPostsAndBadges }) => {
   const fullName = `${user.firstName} ${user.lastName}`.trim()
 
   return (
@@ -22,10 +23,26 @@ const UserByIdPage = ({ user }: { user: UserType & { posts: PostType[] } }) => {
             alt={fullName}
           />
           <div className="ml-0 mt-4 md:mt-0 md:ml-16">
-            <h1 className="text-4xl font-bold text-center md:text-left">
-              {fullName}
-            </h1>
-            <div className="mt-2 text-xl text-gray-400 text-center md:text-left">
+            <div className="flex items-center">
+              <h1 className="text-4xl font-bold text-center md:text-left">
+                {fullName}
+              </h1>
+              {user.badges.length > 0 && (
+                <div className="ml-2">
+                  {user.badges.map(({ badge }) => (
+                    <div className="mt-2 mr-2 last:mr-0" key={badge.id}>
+                      <Image
+                        alt={badge.title}
+                        src={getCloudfrontUrl() + `/badges/${badge.imageName}`}
+                        height={40}
+                        width={40}
+                      />
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+            <div className="text-xl text-gray-400 text-center md:text-left">
               {`${capitalize(user?.gender)} - Age ${
                 new Date().getFullYear() -
                 new Date(user?.birthday || '').getFullYear()
@@ -37,7 +54,7 @@ const UserByIdPage = ({ user }: { user: UserType & { posts: PostType[] } }) => {
         <div className="p-4">
           {user.posts.map((post) => (
             <div className="mt-4" key={post.id}>
-              <Post post={post} createdBy={user} />
+              <Post post={post as PostWithCreatedBy} createdBy={user} />
             </div>
           ))}
         </div>
@@ -55,7 +72,7 @@ export const getServerSideProps: GetServerSideProps = async ({ query }) => {
 
   const user = await prisma.user.findFirst({
     where: { id },
-    include: { posts: true }
+    include: { posts: true, badges: { include: { badge: true } } }
   })
 
   if (!user) {

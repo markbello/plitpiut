@@ -1,10 +1,11 @@
 import { PrismaClient } from '@prisma/client'
-import { Post as PostType } from '../../types/Post'
+import { PostWithCreatedBy } from '../../types/Post'
 import { Post } from '../../components/Post'
 import Layout from '../../components/Layout'
 import { GetServerSideProps } from 'next'
+import { UserWithPostsAndBadges } from '../../types/User'
 
-const PostByIdPage = ({ post }: { post: PostType }) => {
+const PostByIdPage = ({ post }: { post: PostWithCreatedBy }) => {
   const fullName = post
     ? `${post.createdBy.firstName} ${post.createdBy.lastName}`.trim()
     : ''
@@ -17,7 +18,10 @@ const PostByIdPage = ({ post }: { post: PostType }) => {
     >
       {post && (
         <div className="p-4">
-          <Post post={post} createdBy={post.createdBy} />
+          <Post
+            post={post}
+            createdBy={post.createdBy as UserWithPostsAndBadges}
+          />
         </div>
       )}
     </Layout>
@@ -27,16 +31,16 @@ const PostByIdPage = ({ post }: { post: PostType }) => {
 const prisma = new PrismaClient()
 
 export const getServerSideProps: GetServerSideProps<{
-  post: PostType
+  post: PostWithCreatedBy
 }> = async ({ query }) => {
   await prisma.$connect()
 
   const id = query.id as string
 
-  const post = (await prisma.post.findFirst({
+  const post = await prisma.post.findFirst({
     where: { id },
-    include: { createdBy: true }
-  })) as unknown as PostType
+    include: { createdBy: { include: { badges: true, posts: true } } }
+  })
 
   if (!post) {
     throw new Error('Post not found')

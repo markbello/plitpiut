@@ -1,3 +1,5 @@
+import { BadgeConnection, Prisma } from '@prisma/client'
+
 export type Gender = 'MALE' | 'FEMALE' | 'NON_BINARY' | 'UNDISCLOSED'
 
 export interface User {
@@ -15,4 +17,12 @@ export interface User {
   id: string
   slug: string
   bio: string
+  badges: BadgeConnection[]
 }
+
+export type UserWithPostsAndBadges = Prisma.UserGetPayload<{
+  include: {
+    posts: { include: { createdBy: true } }
+    badges: { include: { badge: true } }
+  }
+}>
