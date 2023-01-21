@@ -42,6 +42,7 @@ model User {
   posts          Post[]
   profilePicture UserProfilePicture
   slug           String
+  bio            String
 }
 
 model UserConnection {

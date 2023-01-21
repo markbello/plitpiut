@@ -25,12 +25,13 @@ const UserByIdPage = ({ user }: { user: UserType & { posts: PostType[] } }) => {
             <h1 className="text-4xl font-bold text-center md:text-left">
               {fullName}
             </h1>
-            <p className="mt-2 text-xl text-gray-400 text-center md:text-left">
+            <div className="mt-2 text-xl text-gray-400 text-center md:text-left">
               {`${capitalize(user?.gender)} - Age ${
                 new Date().getFullYear() -
                 new Date(user?.birthday || '').getFullYear()
               }`}
-            </p>
+            </div>
+            <div className="mt-2 text-center md:text-left">{user?.bio}</div>
           </div>
         </div>
         <div className="p-4">

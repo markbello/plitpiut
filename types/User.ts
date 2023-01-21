@@ -14,4 +14,5 @@ export interface User {
   gender: Gender
   id: string
   slug: string
+  bio: string
 }
