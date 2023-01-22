@@ -22,8 +22,8 @@ const UserByIdPage = ({ user }: { user: UserWithPostsAndBadges }) => {
             className="max-w-1/4 rounded-full self-center"
             alt={fullName}
           />
-          <div className="ml-0 mt-4 md:mt-0 md:ml-16">
-            <div className="flex items-center">
+          <div className="ml-0 mt-4 md:mt-0 md:ml-16 ">
+            <div className="flex items-center justify-center">
               <h1 className="text-4xl font-bold text-center md:text-left">
                 {fullName}
               </h1>
