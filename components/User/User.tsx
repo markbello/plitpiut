@@ -2,7 +2,6 @@ import type { UserWithPostsAndBadges } from '../../types/User'
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { Badge } from '@prisma/client'
 
 export const User = ({ user }: { user: UserWithPostsAndBadges }) => {
   const pathname = usePathname()
