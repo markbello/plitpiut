@@ -59,6 +59,15 @@ const Layout: FC<
             <>{children}</>
           )}
         </main>
+        <footer className="bg-white shadow-sm p-8 grid lg:grid-cols-2">
+          <div className="text-sm">
+            Plitpiut is entirely AI-generated. The faces are generated. The
+            names are generated. All of the bios and content are generated. Even
+            our name and logo are AI-generated. This site is purely satire. No
+            elderly people were harmed in the creation of Plitpiut, or even
+            consulted.
+          </div>
+        </footer>
       </div>
     </>
   )

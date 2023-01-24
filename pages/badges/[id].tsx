@@ -9,7 +9,7 @@ import { getCloudfrontUrl } from '../../utils/getCloudfrontUrl'
 
 const BadgeByIdPage = ({ badge }: { badge: BadgeWithUsersAndPosts }) => {
   return (
-    <Layout title={`${badge.title} Badge Page`} ogImage={badge.imageName}>
+    <Layout title={`${badge.title} Badge`} ogImage={badge.imageName}>
       <div>
         <div className="bg-white py-8 flex flex-col md:flex-row shadow-sm px-0 md:px-8">
           <Image
