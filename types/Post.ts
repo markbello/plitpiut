@@ -1,5 +1,4 @@
-import { Prisma } from '@prisma/client'
-import { User } from './User'
+import { Prisma, User } from '@prisma/client'
 
 export interface Post {
   id: string
@@ -10,6 +9,6 @@ export interface Post {
 
 export type PostWithCreatedBy = Prisma.PostGetPayload<{
   include: {
-    createdBy: { include: { badges: true; posts: true } }
+    createdBy: { include: { badgeConnections: true; posts: true } }
   }
 }>

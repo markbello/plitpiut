@@ -39,7 +39,7 @@ export const getServerSideProps: GetServerSideProps<{
 
   const post = await prisma.post.findFirst({
     where: { id },
-    include: { createdBy: { include: { badges: true, posts: true } } }
+    include: { createdBy: { include: { badgeConnections: true, posts: true } } }
   })
 
   if (!post) {

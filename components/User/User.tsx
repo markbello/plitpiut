@@ -2,10 +2,14 @@ import type { UserWithPostsAndBadges } from '../../types/User'
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { Badge, BadgeConnection } from '@prisma/client'
 
 export const User = ({ user }: { user: UserWithPostsAndBadges }) => {
   const pathname = usePathname()
   const fullName = `${user.firstName} ${user.lastName}`
+
+  const [firstBadge = {} as BadgeConnection & { badge: Badge }] =
+    user.badgeConnections ?? []
 
   return (
     <>
@@ -24,10 +28,13 @@ export const User = ({ user }: { user: UserWithPostsAndBadges }) => {
             <Link href={`/users/${user.id}`}>{fullName}</Link>
           )}
         </div>
-        {user.badges.length > 0 && (
-          <div className="text-xs italic text-gray-500">
-            {user.badges[0].badge.title}
-          </div>
+        {user.badgeConnections.length > 0 && (
+          <Link
+            href={`/badges/${firstBadge?.badge?.id}`}
+            className="text-xs italic text-gray-500"
+          >
+            {firstBadge?.badge?.title}
+          </Link>
         )}
       </div>
     </>

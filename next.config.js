@@ -14,5 +14,15 @@ module.exports = {
         pathname: '/**'
       }
     ]
+  },
+  experimental: {
+    swcPlugins: [
+      [
+        'next-superjson-plugin',
+        {
+          excluded: []
+        }
+      ]
+    ]
   }
 }

@@ -3,13 +3,16 @@ import { PostWithCreatedBy } from '../types/Post'
 import { Post } from '../components/Post'
 import { PrismaClient } from '@prisma/client'
 import { UserWithPostsAndBadges } from '../types/User'
+import { stringify } from 'superjson'
+import { parse } from '../utils/parse'
 
 export default function App({ posts }: { posts: PostWithCreatedBy[] }) {
+  const parsedPosts = parse(posts)
   return (
     <Layout title="All Posts">
       <div className="p-4">
         {posts &&
-          posts.map((post) => (
+          parsedPosts.map((post) => (
             <Post
               key={post.id}
               post={post}
@@ -28,8 +31,9 @@ export const getServerSideProps = async () => {
 
   const posts = await prisma.post.findMany({
     include: {
-      createdBy: { include: { badges: { include: { badge: true } } } }
+      createdBy: { include: { badgeConnections: { include: { badge: true } } } }
     },
+    where: { createdBy: { bio: { contains: 'Qanon' } } },
     take: 100
   })
 
@@ -37,5 +41,5 @@ export const getServerSideProps = async () => {
     throw new Error('Posts not found')
   }
 
-  return { props: { posts } }
+  return { props: { posts: stringify(posts) } }
 }
