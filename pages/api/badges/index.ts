@@ -16,7 +16,7 @@ export default async function handler(req, res) {
 
     const updatedUser = await prisma.user.findUnique({
       where: { id: req.body.userId },
-      include: { posts: true, badges: true }
+      include: { posts: true, badgeConnections: true }
     })
 
     return res.status(201).json(updatedUser)
