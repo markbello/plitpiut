@@ -3,6 +3,7 @@ import { FC, PropsWithChildren } from 'react'
 import Head from 'next/head'
 import Spinner from '../Spinner'
 import Link from 'next/link'
+import { useUser } from '@auth0/nextjs-auth0/client'
 
 const Layout: FC<
   PropsWithChildren<{
@@ -18,6 +19,8 @@ const Layout: FC<
   description = 'No description provided',
   ogImage = ''
 }) => {
+  const { user } = useUser()
+
   return (
     <>
       <Head>
@@ -36,19 +39,30 @@ const Layout: FC<
               height={144}
             />
           </Link>
-          <a
-            href="https://www.youtube.com/watch?v=M_Zu7wb4lw8"
-            title="Visit Plitpiut on YouTube"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Image
-              src="/images/youtube.png"
-              alt="Visit Plitpiut on YouTube"
-              width={32}
-              height={16}
-            />
-          </a>
+          <div className="flex items-center">
+            <a
+              href="https://www.youtube.com/watch?v=M_Zu7wb4lw8"
+              title="Visit Plitpiut on YouTube"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image
+                src="/images/youtube.png"
+                alt="Visit Plitpiut on YouTube"
+                width={32}
+                height={16}
+              />
+            </a>
+            {user ? (
+              <a href="/api/auth/logout" className="ml-4">
+                Logout
+              </a>
+            ) : (
+              <a href="/api/auth/login" className="ml-4">
+                Login
+              </a>
+            )}
+          </div>
         </header>
         <main className="flex min-h-full grow bg-slate-50">
           {isLoading ? (
