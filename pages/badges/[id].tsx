@@ -20,13 +20,13 @@ const BadgeByIdPage = ({ badge }: { badge: BadgeWithUsersAndPosts }) => {
             alt={badge.title}
           />
           <div className="ml-0 mt-4 md:mt-0 md:ml-16 ">
-            <div className="flex items-center">
+            <div className="flex items-center justify-center">
               <h1 className="text-4xl font-bold text-center md:text-left">
                 {badge.title}
               </h1>
             </div>
 
-            <div className="mt-2 text-center md:text-left">
+            <div className="mt-8 text-justified  md:text-left px-8 lg:px-0">
               {badge.description}
             </div>
           </div>

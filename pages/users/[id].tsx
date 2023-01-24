@@ -24,20 +24,22 @@ const UserByIdPage = ({ user }: { user: UserWithPostsAndBadges }) => {
             alt={fullName}
           />
           <div className="ml-0 mt-4 md:mt-0 md:ml-16 ">
-            <div className="flex items-center">
+            <div className="flex items-center justify-center">
               <h1 className="text-4xl font-bold text-center md:text-left">
                 {fullName}
               </h1>
             </div>
-            <div className="text-xl text-gray-400 text-center md:text-left">
+            <div className="text-xl text-gray-400 text-center">
               {`${capitalize(user?.gender)} - Age ${
                 new Date().getFullYear() -
                 new Date(user?.birthday || '').getFullYear()
               }`}
             </div>
-            <div className="mt-2 text-center md:text-left">{user?.bio}</div>
+            <div className="mt-4 px-8 md:px-0 text-center md:text-left">
+              {user?.bio}
+            </div>
             {user.badgeConnections.length > 0 && (
-              <div className="mt-4">
+              <div className="mt-8 px-8 md:px-0">
                 <h2 className="font-bold">Badges</h2>
                 <div className="flex">
                   {user.badgeConnections.map(({ badge }) => (
