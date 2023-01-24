@@ -48,9 +48,7 @@ const BadgeByIdPage = ({ badge }: { badge: BadgeWithUsersAndPosts }) => {
 
 const prisma = new PrismaClient()
 
-export const getServerSideProps: GetServerSideProps<{
-  badge: BadgeWithUsersAndPosts
-}> = async ({ query }) => {
+export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   await prisma.$connect()
 
   const id = query.id as string
@@ -63,7 +61,13 @@ export const getServerSideProps: GetServerSideProps<{
           user: {
             include: {
               badgeConnections: { include: { badge: true } },
-              posts: { include: { createdBy: true } }
+              posts: {
+                include: {
+                  createdBy: {
+                    include: { badgeConnections: { include: { badge: true } } }
+                  }
+                }
+              }
             }
           }
         }

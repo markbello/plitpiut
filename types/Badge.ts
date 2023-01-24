@@ -14,7 +14,10 @@ export type BadgeWithUsersAndPosts = Prisma.BadgeGetPayload<{
     badgeConnections: {
       include: {
         user: {
-          include: { badges: true; posts: { include: { createdBy: true } } }
+          include: {
+            badgeConnections: true
+            posts: { include: { createdBy: true } }
+          }
         }
       }
     }
