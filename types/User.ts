@@ -8,3 +8,9 @@ export type UserWithPostsAndBadges = Prisma.UserGetPayload<{
     badgeConnections: { include: { badge: true } }
   }
 }>
+
+export type UserWithBadges = Prisma.UserGetPayload<{
+  include: {
+    badgeConnections: { include: { badge: true } }
+  }
+}>

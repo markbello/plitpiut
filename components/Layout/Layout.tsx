@@ -64,7 +64,7 @@ const Layout: FC<
             )}
           </div>
         </header>
-        <main className="flex min-h-full grow bg-slate-50">
+        <main className="flex min-h-full grow bg-slate-100">
           {isLoading ? (
             <div className="w-full flex items-center justify-center">
               <Spinner />

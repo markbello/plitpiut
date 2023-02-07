@@ -3,9 +3,7 @@
     "sourceMap": true,
     "outDir": "dist",
     "strict": true,
-    "lib": [
-      "esnext"
-    ],
+    "lib": ["esnext", "dom"],
     "esModuleInterop": true,
     "target": "es5",
     "allowJs": true,
@@ -33,7 +31,5 @@
     "prisma/client.js",
     ".next/types/**/*.ts"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

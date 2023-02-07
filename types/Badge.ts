@@ -23,3 +23,9 @@ export type BadgeWithUsersAndPosts = Prisma.BadgeGetPayload<{
     }
   }
 }>
+
+export type BadgeConnectionWithBadge = Prisma.BadgeConnectionGetPayload<{
+  include: {
+    badge: true
+  }
+}>

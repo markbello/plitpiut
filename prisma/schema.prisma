@@ -31,19 +31,30 @@ enum Gender {
 }
 
 model User {
-  id               String             @id @default(auto()) @map("_id") @db.ObjectId
-  birthday         String
-  createdAt        String
-  firstName        String
-  followers        UserConnection[]   @relation("ConnectionFrom")
-  following        UserConnection[]   @relation("ConnectionTo")
-  gender           Gender
-  lastName         String
-  posts            Post[]
-  profilePicture   UserProfilePicture
-  slug             String
-  bio              String
-  badgeConnections BadgeConnection[]
+  id                  String             @id @default(auto()) @map("_id") @db.ObjectId
+  birthday            String
+  createdAt           String
+  firstName           String
+  followers           UserConnection[]   @relation("ConnectionFrom")
+  following           UserConnection[]   @relation("ConnectionTo")
+  gender              Gender
+  lastName            String
+  posts               Post[]
+  profilePicture      UserProfilePicture
+  slug                String
+  bio                 String
+  badgeConnections    BadgeConnection[]
+  inworldCharacterUrl String?
+  humanUserSub        String?
+}
+
+model Message {
+  id          String    @id @default(auto()) @map("_id") @db.ObjectId
+  text        String
+  createdAt   DateTime  @default(now())
+  createdById String    @db.ObjectId
+  recipientId String    @db.ObjectId
+  readAt      DateTime?
 }
 
 model UserConnection {

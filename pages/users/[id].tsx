@@ -25,7 +25,7 @@ const UserByIdPage = ({ user }: { user: UserWithPostsAndBadges }) => {
           />
           <div className="ml-0 mt-4 md:mt-0 md:ml-16 ">
             <div className="flex items-center justify-center">
-              <h1 className="text-4xl font-bold text-center md:text-left">
+              <h1 className="text-display1 text-center md:text-left">
                 {fullName}
               </h1>
             </div>
