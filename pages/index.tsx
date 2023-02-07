@@ -68,7 +68,7 @@ export default function App({
                   <StatusLight />
                 </div>
               </div>
-              {user && (
+              {user ? (
                 <>
                   <button
                     className="m-2 flex items-center"
@@ -85,6 +85,10 @@ export default function App({
                     <ChatWindow plit={parsedPlit} humanUserSub={user.sub!} />
                   </Modal>
                 </>
+              ) : (
+                <span className="ml-4 text-sm text-gray-500">
+                  Log In to Chat
+                </span>
               )}
             </div>
           </div>
